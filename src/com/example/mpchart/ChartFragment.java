@@ -19,6 +19,7 @@ import com.github.mikephil.charting.data.PieDataSet;
 
 public class ChartFragment extends Fragment {
 	private PieChart mChart;
+	private String text;
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 	}
